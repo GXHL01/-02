@@ -26,3 +26,8 @@ def init_logging():
     # 7 将处理器添加到日志
     logger.addHandler(sh)
     logger.addHandler(fh)
+
+
+"""
+你个渣渣
+"""
