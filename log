@@ -1,4 +1,11 @@
 "info：日志文件"
+import logging
+import os
+from logging import handlers
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 def init_logging():
     # 1 初始化日志器
     logger = logging.getLogger()
